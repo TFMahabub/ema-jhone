@@ -3,7 +3,7 @@ import './ShoppingSide.css';
 
 const ShoppingSide = (props) => {
   const clickedProductArray = props.cart;
-  
+
   let totalPrice = 0;
   let totalShippingCharge = 0;
   let tax = 0;
@@ -23,7 +23,7 @@ const ShoppingSide = (props) => {
       <h4>Total-Price: ${totalPrice}</h4>
       <h4>Total Shipping Charge: ${totalShippingCharge}</h4>
       <h4>Tax: ${tax}</h4>
-      <h4>Grand-Total: ${grandTotal}</h4>
+      <h3>Grand-Total: ${grandTotal}</h3>
     </div>
   );
 };

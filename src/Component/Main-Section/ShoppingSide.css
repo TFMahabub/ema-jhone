@@ -5,6 +5,10 @@
 .shopping-side-container h2{
   font-weight: 500;
 }
+.shopping-side-container h3{
+  font-weight: 500;
+  color: #1C2B35;
+}
 .shopping-side-container h4{
   font-weight: 600;
 }
